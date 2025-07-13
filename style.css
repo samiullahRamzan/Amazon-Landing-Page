@@ -179,7 +179,6 @@ span{
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e2e7e6;
-    
 }
 
 .box{
@@ -210,8 +209,8 @@ span{
 /* footer */
 footer{
     margin-top: 10px;
-   
 }
+
 .foot-panel1{
     background-color: #37475a;
     color: white;
@@ -265,4 +264,37 @@ ul a{
 
 .pages{
     padding-top: 25px;
+}
+
+/* media queries */
+
+@media screen and  (max-width:1200px) {
+    .box{
+        width:30%;
+    }
+}
+@media screen and  (max-width:900px) {
+    .box{
+        width:45%;
+    }
+}
+@media screen and  (max-width:700px) {
+    .box{
+        width:80%;
+    }
+}
+@media screen and (max-width:550px) {
+    .box{
+        width:90%;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .box{
+        width: 95%;
+    }
+    .box-content{
+    margin-left: .5rem;
+    margin-right: .5rem;
+   }
 }
